@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+  <link rel="stylesheet" href="about.css">
+  <link href=<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+  <title>Fayrouz Restaurant</title>
+  <link rel = "icon" href="images/f1.png">
+</head>
+<body>
+<header>
+  <a>
+    <img src="images/f1.png" width="180px" height="90px" >
+  </a>
+  <ul>
+    <li class="nav-item active"><a class="nav-link" href="project.html">Home</a></li>
+    <li class="nav-item active"><a class="nav-link" href="menu.html">Menu</a></li>
+    <li class="nav-item active"><a class="nav-link" href="about.html">About</a></li>
+    <li class="nav-item active"><a class="nav-link" href="order.html">Order</a></li>
+    <li class="nav-item active"><a class="nav-link" href="contactus.html">Contact Us</a></li>
+    <form action="logout.php" method="post">
+      <a href="logout.php">
+        <img src="images/logout.png" width="50px" height="50px" >
+      </a>
+    </form>
+  </ul>
+
+
+</header>
+<script type="text/javascript">
+  window.addEventListener("scroll", function (){
+    var header=document.querySelector("header");
+    header.classList.toggle("sticky",window.scrollY>0);
+  })
+</script>
+<div class="box">
+  <img src="images/salat1.jpg" alt="" class="box-img">
+  <h1>Restaurant</h1>
+
+  <p>
+    This application helps our users and those who want to order food from us in an easy way, as our restaurant offers many delicious foods that the customer desires and delivers it to him in the shortest possible time 👌😎🤗</p>
+  <p>We hope you enjoy this app 😊</p>
+  <ul>
+    <li><a href="https://www.facebook.com/Mariamsharaqa89"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+    <li><a href="https://www.instagram.com/maryoooma_kitchen/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+
+  </ul>
+</div>
+</body>
+</html>

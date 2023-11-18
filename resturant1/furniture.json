@@ -1,0 +1,123 @@
+[
+    {
+
+        "name" : "mango Strawberry Raspberry ",
+        "category" : "Drink",
+        "price" : "13.00",
+        "imgSrc" : "images/mangoStrawbRoseberry.PNG"
+    },
+    {
+        "name" : "Strawberry smoothie",
+        "category" : "Drink",
+        "price" : "12.00",
+        "imgSrc" : "images/strawberry%20smoothe.jpg"
+    },
+    {
+        "name" : "chicken pane\n",
+        "category" : "Meal",
+        "price" : "32.00",
+        "imgSrc" : "images/baneh chicken.jpg"
+    },
+    {
+        "name" : "Tulumba",
+        "category" : "sweet",
+        "price" : "25.00",
+        "imgSrc" : "images/balah alsham.jpg"
+    },
+    {
+        "name" : "pancake",
+        "category" : "Sweet",
+        "price" : "20.00",
+        "imgSrc" : "images/bancake with honey.jpg"
+    },
+    {
+        "name" : "crispy chicken burger",
+        "category" : "Meal",
+        "price" : "40.00",
+        "imgSrc" : "images/crespychickenburder.jpg"
+    },
+    {
+        "name" : "lotus Tart",
+        "category" : "Sweet",
+        "price" : "21.00",
+        "imgSrc" : "images/lotus tart.jpg"
+    },
+    {
+        "name" : "Fried Kibbeh",
+        "category" : "Meal",
+        "price" : "23.00",
+        "imgSrc" : "images/kubbah.jpg"
+    },
+    {
+        "name" : "Mexican Chicken",
+        "category" : "Meal",
+        "price" : "45.00",
+        "imgSrc" : "images/macsico-chick.jpg"
+    },
+    {
+        "name" : "um ali",
+        "category" : "Sweet",
+        "price" : "30.00",
+        "imgSrc" : "images/um ali.jpg"
+    },
+    {
+        "name" : "Shrimp Casserole",
+        "category" : "Meal",
+        "price" : "50.00",
+        "imgSrc" : "images/Shrimp Casserole.jpg"
+    },
+    {
+        "name" : "Org",
+        "category" : "Meal",
+        "price" : "28.00",
+        "imgSrc" : "images/yalanje.jpg"
+    },
+    {
+        "name" : "trilicha",
+        "category" : "Sweet",
+        "price" : "32.00",
+        "imgSrc" : "images/trilicha.jpg"
+    },
+    {
+        "name" : "potato ball",
+        "category" : "Meal",
+        "price" : "22.00",
+        "imgSrc" : "images/potato ball.jpg"
+    },
+    {
+        "name" : "Coffee",
+        "category" : "Drink",
+        "price" : "16.00",
+        "imgSrc" : "images/coff2.PNG"
+    },
+    {
+        "name" : "turkish manti",
+        "category" : "Meal",
+        "price" : "40.00",
+        "imgSrc" : "images/turkish manti.jpg"
+    },
+    {
+        "name" : "sea food",
+        "category" : "Meal",
+        "price" : "70.00",
+        "imgSrc" : "images/sea food.jpg"
+    },
+    {
+        "name" : "Ice Coffee",
+        "category" : "Drink",
+        "price" : "19.00",
+        "imgSrc" : "images/icecof.PNG"
+    },
+    {
+        "name" : "Salad",
+        "category" : "Meal",
+        "price" : "16.00",
+        "imgSrc" : "images/salat.jpg"
+    },
+    {
+        "name" : "spaghetti with meat",
+        "category" : "Meal",
+        "price" : "37.00",
+        "imgSrc" : "images/spaghette with meat.jpg"
+    }
+]

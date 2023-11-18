@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Fayrouz Restaurant</title>
+    <link rel = "icon" href="images/f1.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- header  -->
+<header>
+    <div class = "container">
+        <!-- navbar -->
+        <nav class = "navbar">
+            <img src="images/f1.png" width="180px" height="90px" >
+            <button type = "button" class = "navbar-toggler">
+                <i class = "fas fa-bars"></i>
+            </button>
+            <div class = "navbar-collapse">
+                <ul>
+                    <li class="nav-item active"><a class="nav-link" href="project.html">Home</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="menu.html">Menu</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="order.html">Order</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="contactus.html">Contact Us</a></li>
+                    <li>  <form action="logout.php" method="post">
+                        <a href="logout.php">
+                            <img src="images/logout.png" width="50px" height="50px" >
+                        </a>
+                    </form></li>
+                </ul>
+            </div>
+
+            <div class = "cart">
+                <button type = "button" id = "cart-btn">
+                    <i class = "fas fa-shopping-cart"></i>
+                    <span id = "cart-count-info"></span>
+                </button>
+
+
+                <div class = "cart-container">
+                    <div class = "cart-list">
+
+                        <!-- single item -->
+                        <!-- <div class = "cart-item">
+                          <img src = "images/armchair.png" alt = "product image">
+                          <div class = "cart-item-info">
+                            <h3 class = "cart-item-name">Arm Chair</h3>
+                            <span class = "cart-item-category">Chair</span>
+                            <span class = "cart-item-price">$120.00</span>
+                          </div>
+
+                          <button type = "button" class = "cart-item-del-btn">
+                            <i class = "fas fa-times"></i>
+                          </button>
+                        </div> -->
+                        <!-- end of single item  -->
+                    </div>
+
+                    <div class = "cart-total">
+                        <h3>Total: $</h3>
+                        <span id = "cart-total-value"></span>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+        <!-- end of navbar -->
+
+        <!-- banner -->
+        <div class = "banner">
+            <div class = "banner-content">
+                <h1>Restaurant</h1>
+                <p class = "text">Our restaurant cares about the smallest details that may serve you and be grateful to us, we care that you feel as if you are at home and we are pleased that you order from us the best variety of food</p>
+                <div class = "btns">
+                     <a href="about.html" style="background-color: #ffffff"><button type = "button" class = "btn " >more info</button></a>
+                </div>
+            </div>
+
+            <div class = "banner-img">
+                <img src = "images/food.jpg" alt = "furniture banner image"  width="100%">
+            </div>
+        </div>
+        <!-- end of banner  -->
+    </div>
+</header>
+<!-- end of header -->
+
+<!-- products section  -->
+<section class = "products">
+    <div class = "container">
+        <h2>Menu</h2>
+        <div class = "product-list">
+            <!-- single item -->
+            <!--<div class = "product-item">
+              <div class = "product-img">
+                <img src = "images/strawberry%20smoothe.jpg" alt = "product image">
+                <button type = "button" class = "add-to-cart-btn">
+                  <i class = "fas fa-shopping-cart"></i>Add To Cart
+                </button>
+              </div>
+
+              <div class = "product-content">
+                <h3 class = "product-name">Wooden Bed</h3>
+                <span class = "product-category">Bed</span>
+                <p class = "product-price">$120.00</p>
+              </div>
+            </div>-->
+            <!-- end of single item -->
+        </div>
+    </div>
+</section>
+<!-- end of products section -->
+
+<!-- footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-item">
+                <h6>Our Location</h6>
+                <p>Palestine, Nablus,<br> Amman Street</p>
+
+            </div>
+            <div class="footer-item">
+                <h6>Opening Hour</h6>
+                <p>Saturday To Thursday<br>9:00 AM - 12:00 PM</p>
+
+            </div>
+            <div class="footer-item">
+                <h6>Contact Us</h6>
+                <p>0569865648</p>
+                <p>info@gmail.com</p>
+                <div class="social-link">
+                    <a href = "https://www.facebook.com/Mariamsharaqa89">
+                        <i class = "fab fa-facebook-f"></i>
+                    </a>
+                    <a href = "https://www.instagram.com/maryoooma_kitchen/">
+                        <i class = "fab fa-instagram"></i>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- end of footer -->
+
+<script src="app.js"></script>
+</body>
+</html>
